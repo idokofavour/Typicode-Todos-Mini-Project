@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;700&display=swap');
+ 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   font-family: 'AR One Sans', sans-serif;  
+   font-size: 16px;
+   color: #000000;
+   background-color: #fff;
+}
+.container {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#todo-list {
+    display: flex;
+}
+
+#todo-form {
+    margin-left: 10px;
+}
+
+input {
+    border: 2px solid #cecece;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 260px;
+}
+
+input:focus {
+    border: 2px solid #87ace4;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+main button {
+    border: 1px solid #e97f7f;
+    border-radius: 3px;
+    background-color: #e97f7f;
+    color: #fff;
+    margin-left: 10px;
+    padding: 8px 22px;
+}
+.todo {
+    margin: 10px 5px 0 10px;
+    padding: 8px 5px;
+    background-color: #fcfcfc;
+    border-radius: 2px;
+    border: 1px solid #c7c4c4;
+
+}
+
+
+.done {
+    margin: 10px 5px 0 10px;
+    padding: 8px 5px;
+    background-color: #bebdbd;
+    border-radius: 2px;
+    border: 1px solid #7a7a7a;
+}  
